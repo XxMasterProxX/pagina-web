@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efefef;
+}
+
+#padre-header{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    color: #c1c1c1;
+}
+
+/*Estilos del Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Parte Izquierda*/
+.header-izq{
+    display: flex;
+}
+
+.header-izq a{
+    padding: 10px;
+}
+
+.header-izq form input{
+    line-height: 35px;
+    width: 18em;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background: rgb(238, 238, 238);
+}
+
+/*Parte Central*/
+.header-center{
+    width: 60%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.header-center nav ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.header-center nav ul li a{
+    padding: 10px 60px;
+}
+
+.header-center nav ul li a i{
+    color: rgb(7, 0, 204);
+}
+
+.a-active{
+    border-bottom: 3px solid rgb(7, 0, 204) ;
+}
+
+/*Parte Derecha*/
+.header-der{
+    width: 18%;
+}
+
+.header-der-img a img{
+    width: 50px;
+    height: 50px;
+    margin: 5px 16px;
+    float: right;
+    border-radius: 30px ;
+    border: 2px solid;
+    border-color: #c1c1c1;
+}
+
+.header-der .header-der-a{
+    font-size: 15px;
+    color: rgb(18, 16, 76);
+    background: #c1c1c1;
+    border-radius: 30px;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}

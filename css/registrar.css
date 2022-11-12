@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/backgroundregister.PNG);
+    background-attachment: fixed;
+}
+
+#contain{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+#form-center{
+    display: block;
+    width: 30%;
+    margin: 6vh auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #c1c1c1;
+    background: #fff;
+    text-align: center;
+    box-shadow: .2rem .5rem 1em #000;
+}
+
+#form-center .form-title{
+    text-align: left;
+}
+
+#form-center .form-title a{
+    float: right;
+    text-decoration: none;
+    color: #000;
+}
+
+#form-center form .form-title h2{
+    font-size: 28px;
+}
+
+#form-center form .form-block-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#form-center form h5{
+    text-align: left;
+}
+
+#form-center form .form-block-flex .form-blockizq{
+    margin-right: 10px;
+}
+
+#form-center form .form-block-flex input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #6c6c6c;
+    padding: 10px;
+}
+
+#form-center form .form-block{
+    margin: 10px auto;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #6c6c6c;
+}
+
+#form-center form .form-block input{
+    width: 100%;
+    height: 28px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#submit-btn{
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    background: #1aac00;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 23px;
+    color: #fff;
+}
+
+.rojo{
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+    background: #ff0000;
+    display: block;
+}
+
+.verde{
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+    background: #15ff00;
+    display: block;
+}

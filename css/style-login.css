@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+/*Estilos de errores y funciones*/
+.rojo{
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+    background: #ff0000;
+    display: block;
+}
+
+.verde{
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+    background: #15ff00;
+    display: block;
+}
+
+
+
+/* parte izquierda de la pantalla */
+#header-izq{
+    width: 50%;
+    height: 90vh;
+    text-align: right;
+    padding: 20px;
+    float: left;
+}
+
+#header-izq .header-izq-text{
+    margin-right: 15vh;
+    font-size: 20px;
+}
+
+/*Parte derecha de la pantalla*/
+#header-der{
+    width: 50%;
+    padding: 20px;
+    height: 90vh;
+    text-align: center;
+    float: right;
+}
+
+#header-der .header-der-center{
+    width: 65vh;
+    background: #fff;
+    height: 50vh;
+    border-radius: 5px;
+    margin: 15vh auto;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    box-shadow: .1em .1rem .5rem #000;
+}
+
+#header-der .header-der-center .input-box{
+    margin: 10px;
+}
+
+#header-der .header-der-center .input-box input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+#header-der .header-der-center .btn{
+    width: 94%;
+    height: 40px;
+    color: #fff;
+    background: #006eff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+#header-der .header-der-center .input-boxline{
+    width: 90%;
+    margin-left: 17px;
+    height: 30px;
+    border-top: 1px solid #dedede;
+}
+
+#header-der .header-der-center .btn-crear{
+    width: 94%;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    background: #11ac00;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+/*Footer*/
+#footer{
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    clear: both;
+    height: 60px;
+    background: #fff;
+    color: #000;
+}
+
